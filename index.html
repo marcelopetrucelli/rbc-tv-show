@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="md:text-base text-sm h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=nunito:300,400,500,700,900" rel="stylesheet" />
+
+    <link rel="preload" href="/assets/logo-desk.png" as="image" />
+
+    <!-- Alpine Plugins -->
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/mask@3.x.x/dist/cdn.min.js"></script>
+
+    <!-- Alpine Core -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <script src="/assets/app.js"></script>
+    <style>
+        [x-cloak]:not(.box-loading) {
+            display: none !important;
+        }
+    </style>
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>RBC - Mucumbomêtro</title>
+
+</head>
+
+<body class="text-neutral-800">
+    <main x-data="login" class="bg-primary min-h-screen flex flex-col justify-start items-center w-full">
+        <div>
+            <img src="/assets/logo-desk.png" class="md:h-48 h-40 mx-auto mt-8 mb-12 block">
+        </div>
+
+        
+        
+            <div class="ui-container flex flex-col justify-center items-center grow">
+
+                <span class="tv-show" style="font-size: 300px; color:#fff">47.346</span>
+            </div>
+        
+    </main>
+    <footer class="bg-black w-full flex flex-col justify-center items-center py-8 gap-6">
+        <img src="/assets/secretaria-logo-desk.png" width="200">
+        <img src="/assets/marica-logo-desk.png" width="125">
+    </footer>
+</body>
+
+</html>
